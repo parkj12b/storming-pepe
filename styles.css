@@ -1,5 +1,11 @@
  /* 페페가 좋아 페페가 좋아 페페가 좋아 */
-img {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ img {
     width: 280px;
     margin: 10px;
     border: 1px solid red;
@@ -9,7 +15,7 @@ h1{
     text-align: center;
     font-size: 50px;
     animation: h1 3s linear infinite;
-    
+    margin: 40px 10px;
 }
 
 @keyframes h1 {
@@ -29,4 +35,27 @@ h1{
 
 .page-container {
     background: rgb(53, 175, 53);
+}
+
+.img-container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.body-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#first-letter {
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.strong-margin {
+    margin: 0 30px;
 }
